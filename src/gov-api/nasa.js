@@ -7,6 +7,7 @@ const naxios = axios.create({
   }
 })
 
+module.exports = naxios
 // naxios.get('/')
 //   .then(res => {
 //     console.log('res => ', res)

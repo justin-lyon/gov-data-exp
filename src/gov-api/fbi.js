@@ -7,10 +7,4 @@ const fbios = axios.create({
   }
 })
 
-fbios.get('/api/participation/national')
-  .then(res => {
-    console.log('res => ', res)
-  })
-  .catch(err => {
-    console.error('Error: ' + err.message, err.stack)
-  })
+module.exports = fbios
