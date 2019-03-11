@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/jlyon87/gov-data-exp#readme",
   "dependencies": {
     "axios": "^0.18.0",
-    "kyanite": "^0.10.3"
+    "kyanite": "^0.10.3",
+    "standard": "^12.0.1"
   }
 }

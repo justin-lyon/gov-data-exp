@@ -7,10 +7,10 @@ const naxios = axios.create({
   }
 })
 
-naxios.get('/')
-  .then(res => {
-    console.log('res => ', res)
-  })
-  .catch(err => {
-    console.error(err.message, err.stack)
-  })
+// naxios.get('/')
+//   .then(res => {
+//     console.log('res => ', res)
+//   })
+//   .catch(err => {
+//     console.error(err.message, err.stack)
+//   })
