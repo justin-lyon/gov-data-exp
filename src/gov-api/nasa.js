@@ -1,10 +1,7 @@
 const axios = require('axios')
 const creds = require('../../config/keys')
 const naxios = axios.create({
-  baseUrl: '',
-  params: {
-    api_key: creds.API_KEY
-  }
+  baseURL: 'https://ssd-api.jpl.nasa.gov/'
 })
 
 module.exports = naxios

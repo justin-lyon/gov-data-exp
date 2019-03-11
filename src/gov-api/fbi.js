@@ -1,7 +1,7 @@
 const axios = require('axios')
 const creds = require('../../config/keys')
 const fbios = axios.create({
-  baseUrl: 'https://api.usa.gov/crime/fbi/sapi',
+  baseURL: 'https://api.usa.gov/crime/fbi/sapi',
   params: {
     api_key: creds.API_KEY
   }
