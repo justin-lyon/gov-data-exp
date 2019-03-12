@@ -1,5 +1,5 @@
 const axios = require('axios')
-const creds = require('../../config/keys')
+// const creds = require('../../config/keys')
 const naxios = axios.create({
   baseURL: 'https://ssd-api.jpl.nasa.gov/'
 })
